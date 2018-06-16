@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
+    android:padding="10dp"
     android:background="?attr/cardBackground"
     tools:context="com.cvrce.jitunayak715.logindemo.SecondActivity">
 
@@ -46,9 +46,13 @@
         android:layout_marginBottom="270dp"
        />
 </LinearLayout>
-
-
-
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
     </android.support.v7.widget.CardView>
 
 </RelativeLayout>
