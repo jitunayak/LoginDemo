@@ -9,8 +9,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import jp.wasabeef.blurry.Blurry;
-
 public class LoginActivity extends AppCompatActivity {
 
     TextView FogotPassword;
@@ -37,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void ShowPopup(View v)
     {
-        popup.setContentView(R.layout.fragment_buttom_sheet);
+        popup.setContentView(R.layout.activity_main);
         popup.show();
 
     }
