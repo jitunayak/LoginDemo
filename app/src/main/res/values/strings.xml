@@ -3,6 +3,13 @@
     <string name="text1">"hello this is a dark mode demo app \n"
                           "please enable the toggle to enable dark mode\n"
     </string>
+    <string name="text3">"A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -177,4 +184,5 @@
     <string name="myname">Jitu Nayak</string>
     <string name="open_drawer">open drawer</string>
     <string name="close_drawer">close drawer</string>
+    <string name="myinfo">i am a simple sidha sadha bacha pursin my enginering degree from cv raman college of engineering</string>
 </resources>

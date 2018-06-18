@@ -3,17 +3,16 @@
     package="com.cvrce.jitunayak715.logindemo">
 
     <application
-        android:largeHeap="true"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
-
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".SecondActivity">
         </activity>
-        <activity android:name=".SecondActivity"></activity>
         <activity android:name=".NavigationDrawer.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NavigationDrawer.profile_activity"></activity>
     </application>
 
 </manifest>
